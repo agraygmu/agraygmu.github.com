@@ -1,0 +1,268 @@
+/*
+ * Default styles
+ */
+@media screen {
+
+html {
+	background-color: #f5cd8f;
+}
+
+
+body {
+	
+	background-color: #FFFFD3;
+	margin: 0px 100px 50px 100px;
+	}
+	
+	
+header {
+	background-image: url(PTC-map.jpg);
+	padding: 40px;
+	opacity: 0.9;
+	margin: 0 auto;
+	width: 100%;
+	}
+
+header h1 {
+		margin: 0;
+		font-family: 'Kameron', serif;
+		font-variant: small-caps;
+		font-size: 52pt;
+		color: #0b2547;
+		padding-left: 40;
+}
+/*
+ * this margin above is to get rid of white space between header h1 (and h1 only) and nav
+ */
+nav {
+	background-color: #f5cd8f;
+	padding-bottom: 3px;
+	padding-top: 3px;
+	margin: 0;
+	}
+
+nav ul {
+	list-style: none;
+	padding-left: 100px;
+}
+
+nav li {
+	display: inline;
+	padding: 35px;
+}
+
+nav a {
+	color: #6b0f15;
+	text-decoration: none;
+	font-size: 14pt;
+	font-family: Times New Roman, serif;
+	font-weight: bold;
+	
+}
+
+#content
+{
+	width: 70%;
+	margin: 15px 120px 15px 120px;
+	padding-top: 10px;
+	
+	}
+#content a {
+	text-decoration: none;
+	color: #0b2547;
+}
+
+#content a:visited {
+	color: #59599C;
+	}
+	
+p {
+	font-family: Times New Roman, serif;
+	font-size: 12pt;
+	line-height: 20pt;
+	
+}
+
+ul {
+	font-family: Times New Roman, serif;
+	font-size: 12pt;
+	line-height: 18pt;
+}
+	
+
+h2,h3
+{
+	font-family: Times New Roman, serif;
+	font-weight: bold;
+	color: #6b0f15;
+}
+
+blockquote {
+font-style: italic;
+}
+
+footer {
+	text-align: center;
+	color: #0b2547;
+	margin: 0;
+	background-color: #f5cd8f;
+	width: 100%;
+	display: block;
+	
+	}
+}
+/*
+ * Smartphone or ~300px aka iphone portrait 480 px according to websitedimensions.com
+ */
+@media screen and (max-width: 310px) {
+
+	header {
+	margin: 0;
+	}
+	
+	header h1 {
+		font-size: 24pt;
+		text-align: center;
+		padding-left: 0;
+		}
+	body {
+		margin: 10px 20px 10px 20px;
+		padding: 0px;
+	}
+	
+	nav ul {
+	padding-left: 0;
+	}
+	
+	nav a {
+		display: block;
+		text-align: center;
+		padding: 0px;
+		font-size: 10pt;
+		
+	}
+
+	#content {
+		padding-left: 20px;
+		padding-right: 20px;
+		width: 90%;
+		margin: 0;
+	}
+	
+	h2 {
+		font-size: 12pt;
+	}
+	
+	h3 {
+		font-size: 11pt;
+		}
+	
+	p {
+		font-size: 10pt;
+		line-height: 15pt;
+	}
+	ul {
+		font-size: 10pt;
+	}
+	
+	footer {
+		clear: both;
+	}
+}
+/*
+* tablet or ~600px aka ipad portrait 1024 px
+*/
+@media screen and (min-width: 310px) and (max-width: 750px) {
+
+header {
+	margin: 0;
+	}
+	
+	header h1 {
+		font-size: 36pt;
+		
+		padding-left: 0;
+		}
+	body {
+		margin: 20px 30px 20px 30px;
+		padding: 0px;
+	}
+	
+	nav ul {
+	padding-left: 0;
+	}
+	
+	nav a {
+		display: block;
+		padding: 8px;
+		font-size: 10pt;
+		float: left;
+	}
+
+	#content {
+		padding-left: 20px;
+		width: 85%;
+		margin: 0;
+	}
+	
+	h2 {
+		font-size: 14pt;
+
+	}
+	
+	h3 {
+		font-size: 13pt;
+		}
+	
+	p {
+		font-size: 12pt;
+	}
+	ul {
+		font-size: 12pt;
+	}
+	
+	footer {
+		clear: both;
+		font-size: 10pt;
+	}
+}
+
+/*
+ * large desktop or ~960px and wider aka screen 900 px
+ */
+
+@media screen and (min-width: 1405px) {
+
+header h1  {
+	font-size: 72pt;
+	}
+
+nav a {
+	font-size: 14pt;
+	}
+h2 {
+	font-size: 18pt;
+	}
+h3 {
+	font-size: 16pt;
+	}
+p {
+	font-size: 14pt;
+	line-height: 24pt;
+	}
+ul {
+	font-size: 14pt;
+	line-height: 22pt;
+	}
+
+}
+
+
+/*
+ * Print styles
+ */
+@media print {
+
+
+
+}
