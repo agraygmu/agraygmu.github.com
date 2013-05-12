@@ -4,7 +4,7 @@
 @media screen {
 
 html {
-	background-color: #f5cd8f;
+	background-color: #ffdfaa;
 }
 
 
@@ -16,9 +16,11 @@ body {
 	
 	
 header {
-	background-image: url(PTC-map.jpg);
-	padding: 40px;
-	opacity: 0.9;
+	background-image: url(PTC-map.png);
+	opacity: .9;
+	background-size: cover;
+	padding-top: 40px;
+	padding-bottom: 40px;
 	margin: 0 auto;
 	width: 100%;
 	}
@@ -29,15 +31,15 @@ header h1 {
 		font-variant: small-caps;
 		font-size: 52pt;
 		color: #0b2547;
-		padding-left: 40;
+		text-align: center;
 }
 /*
  * this margin above is to get rid of white space between header h1 (and h1 only) and nav
  */
 nav {
-	background-color: #f5cd8f;
-	padding-bottom: 3px;
-	padding-top: 3px;
+	background-color: #ffdfaa;
+	padding-bottom: 2px;
+	padding-top: 2px;
 	margin: 0;
 	}
 
@@ -57,7 +59,6 @@ nav a {
 	font-size: 14pt;
 	font-family: Times New Roman, serif;
 	font-weight: bold;
-	
 }
 
 #content
@@ -65,8 +66,8 @@ nav a {
 	width: 70%;
 	margin: 15px 120px 15px 120px;
 	padding-top: 10px;
-	
 	}
+	
 #content a {
 	text-decoration: none;
 	color: #0b2547;
@@ -74,6 +75,10 @@ nav a {
 
 #content a:visited {
 	color: #59599C;
+	}
+
+#content a:hover, a:active {
+	text-decoration: underline;
 	}
 	
 p {
@@ -105,9 +110,10 @@ footer {
 	text-align: center;
 	color: #0b2547;
 	margin: 0;
-	background-color: #f5cd8f;
+	background-color: #ffdfaa;
 	width: 100%;
 	display: block;
+	padding-top: 2px;
 	
 	}
 }
